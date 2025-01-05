@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zehua Song"
-description              : "How honorable it is to be an offshore oil operator!"
+description              : "How honorable it is to be an offshore oil practitioner!"
 repository               : "edwardaud/edwardaud.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zehua Song"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/头像.jpg"
   bio              : "China University of Petroleum, Beijing"
   location         : "Beijing, China"
   employer         :
