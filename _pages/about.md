@@ -41,6 +41,22 @@ My research interests include the optimization design of offshore structures, bi
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISOPE 2024</div><img src='images/ISOPE 2024.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Real-Time Inversion Framework for Carbon Equivalent Emissions in Oil and Gas Extraction Based on Vision Transformer](papers/ISOPE 2024.pdf)
+
+**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+</div>
+</div>
+
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/DPODDPG算法架构-更新.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
