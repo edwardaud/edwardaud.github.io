@@ -42,7 +42,7 @@ My research interests include the optimization design of offshore structures, bi
 
 Qishuai Yin, **Zehua Song**, Kejin Chen, Xu Zhou, Mayank Tyagi, Li Li
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Highlight**](https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE23/All-ISOPE23/524254) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Enhanced Signal Monitoring with Side-Bypass Pipe Design. 
 - Integrated Monitoring to Resolve Delays and Inaccuracies. 
 - Machine Learning Innovations for Gas Kick Early Warning. 
@@ -58,7 +58,7 @@ Qishuai Yin, **Zehua Song**, Kejin Chen, Xu Zhou, Mayank Tyagi, Li Li
 
 Yu Song, **Zehua Song**, Jin Yang, Lei Li
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Highlight**](https://www.sciencedirect.com/science/article/abs/pii/S0029801824017360) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Advanced Prediction Model for Conductor Casing Jetting Time. 
 - Comprehensive Mechanism Analysis and Optimization Framework. 
 - Reinforcement Learning-Driven Optimization and Practical Validation. 
@@ -73,7 +73,7 @@ Yu Song, **Zehua Song**, Jin Yang, Lei Li
 
 **Zehua Song**, Xiaoyang Yu, Yu Song, Jin Yang, Dongsheng Xu, Kejin Chen, Fangfei Huang, Bin Chen, Yanwei Song
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Highlight**](https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE24/All-ISOPE24/546127) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - ViT-UNet Framework for Carbon Emission Quantification. 
 - Spatial Distribution Analysis of Offshore Carbon Emissions. 
 </div>
@@ -88,7 +88,7 @@ Yu Song, **Zehua Song**, Jin Yang, Lei Li
 **Zehua Song**, Yu Song, Jin Yang, Baosheng Liu, Bingzhen Gao, Jizhou Tang
 
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Highlight**](https://www.sciencedirect.com/science/article/pii/S2949891024007620) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Integrating Symbolic Regression for Enhanced Drilling Parameter Mapping. 
 - Advancing Drilling Perception with Real-Time Adaptability. 
 - Empirical Validation and Broad Applicability in Drilling Optimization.
@@ -106,7 +106,7 @@ Yu Song, **Zehua Song**, Jin Yang, Lei Li
 
 Yu Song, **Zehua Song**, Jin Yang, Kejin Chen, Jizhou Tang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Highlight**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4937873) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - AI-Enhanced Framework Addressing Formation Variability in Offshore Drilling. 
 - Mitigating Lag Effects for Enhanced Formation Perception and Safety. 
 - Empirical Validation Highlighting Efficiency Gains and Sustainability.
