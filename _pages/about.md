@@ -43,7 +43,7 @@ My research interests include the optimization design of offshore structures, bi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ocean Engineering</div><img src='images/OE.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Multi-Objective Optimization Framework for Deepwater Riser Jetting Installation Parameters Using Deep Reinforcement Learning](papers/ISOPE 2024.pdf)
+[Multi-Objective Optimization Framework for Deepwater Riser Jetting Installation Parameters Using Deep Reinforcement Learning](papers/OE.pdf)
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
