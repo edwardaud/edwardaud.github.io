@@ -139,8 +139,10 @@ Yu Song, **Zehua Song**, ……
 - *2022.11* Second Prize, 4th National Finals of China Ocean Engineering Design Competition
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 - 2025.06*, China University of Petroleum (Beijing), Main Campus (211, Double First-Class), Artificial Intelligence (Master)
+- *2019.12 - 2022.07*, China University of Petroleum (Beijing), Main Campus (211, Double First-Class), Artificial Intelligence (Bachelor)
+- *2018.09 - 2019.12*, China University of Petroleum (Beijing), Karamay Campus (211, Double First-Class), Oil and Gas Storage and Transportation Engineering (Selected for Integrated Bachelor's-Master's Program in AI for Oil and Gas)
+
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
