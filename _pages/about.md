@@ -17,13 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a Master’s degree in Artificial Intelligence at [the College of Artificial Intelligence](https://www.cup.edu.cn/cupai/), China University of Petroleum (Beijing), under the guidance of [Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm) and [Jin Yang](https://faculty.cup.edu.cn/yangjin/). During my undergraduate studies, I was selected for the Integrated Bachelor's and Master's Program in Oil and Gas Artificial Intelligence and graduated with a Bachelor’s degree in Artificial Intelligence. I have developed strong technical skills in Python, MATLAB, and ANSYS. Additionally, I gained practical experience through internships at Xinjiang Oilfield Branch of CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em; padding:0; margin:0; display:inline-block;"> and Beijing Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle; padding:0; margin:0; display:inline-block;">, as well as on-site engagement at the Hainan Branch of CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">. During my studies, I have been honored with several prestigious awards, including the National Graduate Scholarship, the United Energy Outstanding Student Scholarship, the University’s First-Class Scholarship, and the title of Outstanding Graduate Student.
+I am currently pursuing a Master’s degree in Artificial Intelligence at [the College of Artificial Intelligence](https://www.cup.edu.cn/cupai/), China University of Petroleum (Beijing), under the guidance of [Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). During my undergraduate studies, I was selected for the Integrated Bachelor's and Master's Program in Oil and Gas Artificial Intelligence and graduated with a Bachelor’s degree in Artificial Intelligence. I have developed strong technical skills in Python, MATLAB, and ANSYS. Additionally, I gained practical experience through internships at Xinjiang Oilfield Branch of CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em; padding:0; margin:0; display:inline-block;"> and Beijing Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle; padding:0; margin:0; display:inline-block;">, as well as on-site engagement at the Hainan Branch of CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">. During my studies, I have been honored with several prestigious awards, including the National Graduate Scholarship, the United Energy Outstanding Student Scholarship, the University’s First-Class Scholarship, and the title of Outstanding Graduate Student.
 
 My research interests include the optimization design of offshore structures, big data and optimization decision-making in drilling, as well as intelligent sensing and control in drilling operations. I have published 7+ papers <a href='https://scholar.google.com/citations?user=UYm7ZHgAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international journals and conferences, including OE, JPSE, ISOPE, and OTC.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.10*: &nbsp;🎉 Honored to join the Deep-Sea Engineering Innovation Team. 
 
 # 📝 Publications 
 <span style="font-size: 1.2em; font-weight: bold; font-style: italic;">Published</span>
@@ -144,9 +143,15 @@ Yu Song, **Zehua Song**, ……
 - *2018.09 - 2019.12*, China University of Petroleum (Beijing), Karamay Campus (211, Double First-Class), Oil and Gas Storage and Transportation Engineering (Selected for Integrated Bachelor's-Master's Program in AI for Oil and Gas)
 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💬 Oral Presentations
+- *2024.06*, Rhodes, Greece, ISOPE 2024
+- *2023.06*, Vancouver, Canada, ISOPE 2023
+
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.11 - 2023.11*, CNOOC Hainan Branch, Haikou
+- *2023.10 - 2023.10*, CNOOC Shenzhen Branch, Shenzhen
+- *2023.07 - 2023.09*, CNOOC Hainan Branch, Haikou
+- *2023.05 - 2023.05*, CNOOC Shenzhen Branch, Shenzhen
+- *2021.07 - 2021.09*, Kingsoft Cloud, Beijing
+- *2019.07 - 2019.08*, CNPC Xinjiang Oilfield Branch, Karamay
