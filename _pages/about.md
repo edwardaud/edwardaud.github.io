@@ -29,7 +29,7 @@ My research interests include the optimization design of offshore structures, bi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Early Warning of Deep-Water Drilling Influx Based on Machine Learning](papers/ISOPE 2023.pdf)
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
