@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 🙋‍♂️ About Me
+<span class='anchor' id='about-me'></span>
+# 🙋‍♂️ <font color="#4A708B">About Me</font>
 
 Here is **Zehua Song**. I am currently pursuing a Master’s degree in Artificial Intelligence at [the College of Artificial Intelligence](https://www.cup.edu.cn/cupai/), China University of Petroleum (Beijing), supervised by [Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). During my undergraduate studies, I was selected for the Integrated Bachelor's and Master's Program in Oil and Gas Artificial Intelligence and graduated with a Bachelor’s degree in Artificial Intelligence. Through academic research and practical projects, I have gained substantial experience in Python, MATLAB, and ANSYS. Additionally, I gained practical experience through internships at Xinjiang Oilfield Branch of CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em; padding:0; margin:0; display:inline-block;"> and Beijing Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle; padding:0; margin:0; display:inline-block;">, as well as on-site engagement at the Hainan Branch of CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">. I have received notable awards, including the National Graduate Scholarship, the United Energy Outstanding Student Scholarship, the University’s First-Class Scholarship, and the title of Outstanding Graduate Student.
 
@@ -28,10 +29,11 @@ My research interests include the optimization design of offshore structures, bi
 
 
 
-# 🔥 News
-- *2021.10*: &nbsp;🎉 Honored to join the Deep-Sea Engineering Innovation Team. 
+# 🔥 <font color="#4A708B">News</font>
+- *2021.10*: &nbsp;🎉🎉 Honored to join the Deep-Sea Engineering Innovation Team. 
 
-# 📝 Publications 
+
+# 📝 <font color="#4A708B">Publications</font>
 <span style="font-size: 1.2em; font-weight: bold; font-style: italic;">Published</span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -134,7 +136,9 @@ Yu Song, **Zehua Song**, ……
 </div>
 </div>
 
-# 🎖 Honors and Awards
+
+<span class='anchor' id='-honors-and-awards'></span>
+# 🏆️ <font color="#4A708B">Honors and Awards</font>
 
 - *2024.10* National Scholarship for Postgraduates (Top 1%)
 - *2023.10* United Energy Outstanding Student Scholarship
@@ -144,18 +148,20 @@ Yu Song, **Zehua Song**, ……
 - *2022.12* First Prize, National College Students Data Analysis Competition
 - *2022.11* Second Prize, 4th National Finals of China Ocean Engineering Design Competition
 
-# 📖 Educations
+
+# 📖 <font color="#4A708B">Educations</font>
 - *2022.09 - 2025.06*, China University of Petroleum (Beijing), Main Campus (211, Double First-Class), Artificial Intelligence (Master)
 - *2019.12 - 2022.07*, China University of Petroleum (Beijing), Main Campus (211, Double First-Class), Artificial Intelligence (Bachelor)
 - *2018.09 - 2019.12*, China University of Petroleum (Beijing), Karamay Campus (211, Double First-Class), Oil and Gas Storage and Transportation Engineering (Selected for Integrated Bachelor's-Master's Program in AI for Oil and Gas)
 
 
-# 💬 Oral Presentations
+
+# 💬 <font color="#4A708B">Oral Presentations</font>
 - *2024.06*, Rhodes, Greece, ISOPE 2024
 - *2023.06*, Vancouver, Canada, ISOPE 2023
 
 
-# 💻 Internships
+# 💻 <font color="#4A708B">Internships</font>
 - *2023.11 - 2023.11*, CNOOC Hainan Branch, Haikou
 - *2023.10 - 2023.10*, CNOOC Shenzhen Branch, Shenzhen
 - *2023.07 - 2023.09*, CNOOC Hainan Branch, Haikou
@@ -163,6 +169,6 @@ Yu Song, **Zehua Song**, ……
 - *2021.07 - 2021.09*, Kingsoft Cloud, Beijing
 - *2019.07 - 2019.08*, CNPC Xinjiang Oilfield Branch, Karamay
 
-# 🌏️ Visitor Map
-
+<span class='anchor' id='-visitor-map'></span>
+# 🌏️ <font color="#4A708B">Visitor Map</font>
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=375e86&w=370&t=tt&d=2a65RVkDQtsNVgLvnJPUt-6ACnWUxt8CSOdNZ81OM1A&co=9ecdee&cmo=ffbdf7&cmn=fffc2e&ct=000000"></script>
