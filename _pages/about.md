@@ -140,13 +140,14 @@ Yu Song, **Zehua Song**, ……
 <span class='anchor' id='-honors-and-awards'></span>
 # 🏆️ <font color="#4A708B">Honors and Awards</font>
 
-- *2024.10* National Scholarship for Postgraduates (Top 1%)
-- *2023.10* United Energy Outstanding Student Scholarship
-- *2023.10* First-Class Scholarship, China University of Petroleum (Beijing)
+- *2024.10* National Scholarship for Postgraduates (Top 1%) (National Level)      
+- *2022.12* First Prize, National College Students Data Analysis Competition (National Level)
+- *2022.11* Second Prize, 4th National Finals of China Ocean Engineering Design Competition (National Level)                                                                                                     
+- *2023.02* Second Prize, “Huashu Cup” National College Students Mathematical Modeling Competition (Provincial Level)
+- *2021.04* Second Prize, MathorCup National University Mathematical Modeling Challenge (Provincial Level)
 - *2023.10* Outstanding Graduate Student Award, China University of Petroleum (Beijing)
-- *2023.02* Second Prize, "Huashu Cup" National College Students Mathematical Modeling Competition
-- *2022.12* First Prize, National College Students Data Analysis Competition
-- *2022.11* Second Prize, 4th National Finals of China Ocean Engineering Design Competition
+- *2019.10* United Energy Outstanding Student Scholarship                                                                                                                 
+
 
 
 # 📖 <font color="#4A708B">Educations</font>
