@@ -123,7 +123,7 @@ Yu Song, **Zehua Song**, Jin Yang, Kejin Chen, Jizhou Tang
 
 <span style="font-size: 1.2em; font-weight: bold; font-style: italic;">In Preparation</span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SPE Journal</div><img src='images/In Preparation.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SPE Journal</div><img src='images/SPEJ.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Adaptive Drilling Decision-Making Framework for Extended-Reach Wells under Multiple Objectives
