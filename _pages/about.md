@@ -77,7 +77,7 @@ Yu Song, **Zehua Song**, Jin Yang, Lei Li
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Multi-Objective Reinforcement Learning Framework for Real-Time Drilling Optimization Based on Symbolic Regression and Drilling Perception](papers/JPSE.pdf)
@@ -96,7 +96,7 @@ Yu Song, **Zehua Song**, Jin Yang, Lei Li
 
 <span style="font-size: 1.2em; font-weight: bold; font-style: italic;">Under Review</span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Optimization of Multi-Objective Real-Time Drilling Operations Considering Lag Effects and Formation Variability](papers/RESS.pdf)
