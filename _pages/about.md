@@ -25,9 +25,6 @@ Here is **Zehua Song**. I am currently pursuing a Master’s degree in Artificia
 My research interests include the optimization design of offshore structures, big data and optimization decision-making in drilling, as well as intelligent sensing and control in drilling operations. I have published 7+ papers <a href='https://scholar.google.com/citations?user=UYm7ZHgAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international journals and conferences, including OE, JPSE, ISOPE, and OTC. If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - **2022216517.cup@vip.163.com**.
 
 
-<p style="color: #B22222; font-weight: bold;">I am actively seeking a PhD position starting in 2025. If you have any information or opportunities, please feel free to contact me!</p>
-
-
 
 # 🔥 <font color="#4A708B">News</font>
 - *2021.10*: &nbsp;🎉🎉 Honored to join the Deep-Sea Engineering Innovation Team. 
