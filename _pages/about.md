@@ -16,14 +16,28 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-
-<span class='anchor' id='about-me'></span>
 # 🙋‍♂️ <font color="#4A708B">About Me</font>
 
-Here is **Zehua Song**. I am currently pursuing a Master’s degree in Artificial Intelligence at [the College of Artificial Intelligence](https://www.cup.edu.cn/cupai/), China University of Petroleum (Beijing), supervised by [Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). During my undergraduate studies, I was selected for the Integrated Bachelor's and Master's Program in Oil and Gas Artificial Intelligence and graduated with a Bachelor’s degree in Artificial Intelligence. Through academic research and practical projects, I have gained substantial experience in Python, MATLAB, and ANSYS. Additionally, I gained practical experience through internships at Xinjiang Oilfield Branch of CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em; padding:0; margin:0; display:inline-block;"> and Beijing Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle; padding:0; margin:0; display:inline-block;">, as well as on-site engagement at the Hainan Branch of CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">. I have received notable awards, including the National Graduate Scholarship, the United Energy Outstanding Student Scholarship, the University’s First-Class Scholarship, and the title of Outstanding Graduate Student.
+**A Problem-Solver Applying AI to Innovate in Complex Physical Systems.**
 
-My research interests include the optimization design of offshore structures, big data and optimization decision-making in drilling, as well as intelligent sensing and control in drilling operations. I have published 7+ papers <a href='https://scholar.google.com/citations?user=UYm7ZHgAAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the top international journals and conferences, including OE, JPSE, ISOPE, and OTC. If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - **2022216517.cup@vip.163.com**.
+I recently graduated with a **Master of Science in Artificial Intelligence** from the [China University of Petroleum (Beijing)](https://www.cup.edu.cn/), where I was advised by [Prof. Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Prof. Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). My research focused on building robust, intelligent systems to solve critical engineering challenges. I specialize in:
 
+* **Physics-Informed & Bayesian ML** for predictive modeling under uncertainty.
+* **Deep Reinforcement Learning** for dynamic optimal control.
+* **Sim-to-Real Adaptation** for deploying AI in real-world, dynamic environments.
+
+During my Master's, I published **over 10 papers** in top-tier journals and conferences (**6 as first author/primary contributor**) and was honored to be selected for the **"List of 100 Exemplary Graduate Student Winners"** nationwide for the National Scholarship. I have also gained practical industry experience through engagements with CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">, CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em;">, and Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle;">.
+
+My full academic profile, including publications and awards, can be found below. If you are interested in any aspect of my work, I am always open to discussions and collaborations. Feel free to reach out to me at - **zehuasong2000@outlook.com**.
+
+# 🎯 <font color="#4A708B">Research Highlights</font>
+
+My research is organized into three core themes. Please click on a highlight to see the detailed project presentation.
+
+| [**Physics-Informed & Bayesian ML**<br>*(for predictive modeling under uncertainty)*]({{ "/images/RH1.mp4" | relative_url }}) | [**Sim-to-Real Adaptation**<br>*(for deploying AI in real-world, dynamic environments)*](Your_PPT.pdf#page=8) | [**Deep Reinforcement Learning**<br>*(for dynamic optimal control)*](Your_PPT.pdf#page=10) |
+| :---: | :---: | :---: |
+| My work on the **HBPINN** framework, which fuses PDEs with Bayesian Inference to create robust, uncertainty-aware digital twins. | My two-stage framework for model adaptation, using **DANN** for initial transfer and **Online Learning** for continuous improvement. | My work on the **DN-SAC** agent, which learns an instantaneous optimal policy to control complex systems in a POMDP setting. |
+| **Keywords:** PINNs, UQ, Digital Twins, Probabilistic Assessment | **Keywords:** DANN, Online Learning, Evergreen Models, R² > 0.99 | **Keywords:** DRL, Optimal Control, POMDP, World Models |
 
 
 # 🔥 <font color="#4A708B">News</font>
