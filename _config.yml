@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zehua Song"
-description              : "How honorable it is to be an offshore oil practitioner!"
+description              :
 repository               : "edwardaud/edwardaud.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -26,7 +26,7 @@ author:
   bio              : "China University of Petroleum (Beijing)"
   location         : "Beijing, China"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=UYm7ZHgAAAAJ&hl"
   email            : "zehuasong2000@outlook.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
