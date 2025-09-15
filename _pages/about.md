@@ -34,7 +34,7 @@ My full academic profile, including publications and awards, can be found below.
 
 My research is organized into three core themes. Please click on a highlight to see the detailed project presentation.
 
-| [**Physics-Informed & Bayesian ML**<br>*(for predictive modeling under uncertainty)*](images/Rh1.MP4#page=8) | [**Sim-to-Real Adaptation**<br>*(for deploying AI in real-world, dynamic environments)*](Your_PPT.pdf#page=8) | [**Deep Reinforcement Learning**<br>*(for dynamic optimal control)*](Your_PPT.pdf#page=10) |
+| [**Physics-Informed & Bayesian ML**<br>*(for predictive modeling under uncertainty)*](images/Rh1.mp4#page=8) | [**Sim-to-Real Adaptation**<br>*(for deploying AI in real-world, dynamic environments)*](Your_PPT.pdf#page=8) | [**Deep Reinforcement Learning**<br>*(for dynamic optimal control)*](Your_PPT.pdf#page=10) |
 | :---: | :---: | :---: |
 | My work on the **HBPINN** framework, which fuses PDEs with Bayesian Inference to create robust, uncertainty-aware digital twins. | My two-stage framework for model adaptation, using **DANN** for initial transfer and **Online Learning** for continuous improvement. | My work on the **DN-SAC** agent, which learns an instantaneous optimal policy to control complex systems in a POMDP setting. |
 | **Keywords:** PINNs, UQ, Digital Twins, Probabilistic Assessment | **Keywords:** DANN, Online Learning, Evergreen Models, R² > 0.99 | **Keywords:** DRL, Optimal Control, POMDP, World Models |
