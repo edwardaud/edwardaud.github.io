@@ -3,24 +3,27 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Research Highlights"
+    url: "/#Research-Highlights"
+
   - title: "News"
-    url: "/#-news"
+    url: "/#News"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#Publications"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#Honors-and-Awards"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: "/#Education"
 
   - title: "Oral Presentations"
-    url: "/#-oral-presentations"
+    url: "/#Oral-Presentations"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Industry Experience"
+    url: "/#Industry-Experience"
 
   - title: "Visitor Map"
-    url: "/#-visitor-map"
+    url: "/#Visitor-Map"
 
