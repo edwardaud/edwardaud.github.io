@@ -8,6 +8,112 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  /* ================================================= */
+  /* Research Card Styles (Top Section)                */
+  /* ================================================= */
+  
+  /* 卡片容器本身 - 需要相对定位来约束伪元素 */
+  .research-card {
+    position: relative; /* 关键：为伪元素提供定位锚点 */
+    overflow: hidden; /* 防止装饰条意外溢出 */
+    transition: background-color 0.3s ease; /* 保留背景色过渡效果 */
+  }
+
+  /* 默认状态的顶部装饰条 (使用 ::before 伪元素创建) */
+  .research-card::before {
+    content: ''; /* 伪元素必需 */
+    position: absolute; /* 绝对定位于卡片内部 */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* 水平居中 */
+    width: 60%; /* 装饰条宽度，可自行调整 */
+    height: 4px; /* 默认的“细边框”厚度 */
+    background-color: #7A0019; /* 你的主题红色 */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: height 0.3s ease;
+  }
+
+  /* 悬停时卡片的变化 (只改变背景色) */
+  .research-card:hover {
+    background-color: rgba(122, 0, 25, 0.05) !important; /* 保留极其淡的红色填充 */
+  }
+
+  /* 悬停时装饰条的变化 (加粗) */
+  .research-card:hover::before {
+    height: 7px; /* 悬停时加粗后的厚度 */
+  }
+
+
+  /* ================================================= */
+  /* Publication Card Styles (New Addition & Edits)    */
+  /* ================================================= */
+
+  /* 论文卡片容器 - 需要相对定位 */
+  .publication-card {
+    position: relative;
+    transition: background-color 0.3s ease;
+	margin-bottom: 32px; /* 新增：为每个卡片添加32px的底部间距 */
+  }
+
+  /* 默认状态的左侧装饰条 */
+  .publication-card::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* 垂直居中 */
+    height: 60%; 
+    width: 5px;  
+    background-color: #7A0019; /* 已更正为红色 */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: width 0.3s ease;
+  }
+
+  /* 悬停时卡片的变化 (只改变背景色) */
+  .publication-card:hover {
+    background-color: rgba(122, 0, 25, 0.05); /* 保留极其淡的红色填充, !important 在这里非必需 */
+  }
+
+  /* 悬停时装饰条的变化 (加粗) */
+  .publication-card:hover::before {
+    width: 7px; /* 悬停时加粗后的厚度 */
+  }
+  
+  /* 修改：调整论文卡片内部的留白 */
+  .paper-box.publication-card {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;  /* 修改：在左侧推出空间，避免内容遮挡 */
+    padding-right: 15px; /* 修改：右侧也增加一点空间，让左右对称 */
+	border-radius: 12px; /* 新增：与 Research Highlights 卡片统一圆角 */
+  }
+  
+  /* 新增：进一步压缩卡片内文字元素的间距 */
+  .publication-card .paper-box-text > * {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* 新增：缩小 Highlights 部分列表项的字体大小 */
+  .publication-card .paper-box-text ul li {
+    font-size: 0.9em;
+  }
+
+  /* 新增：为所有 .paper-box 元素添加阴影，保持与 Research Highlights 一致 */
+  .paper-box {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+
+
+</style>
+
+
+
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -30,14 +136,15 @@ During my Master's, I published **over 10 papers** in top-tier journals and conf
 
 If you are interested in any aspect of my work, I am always open to discussions and collaborations. Feel free to reach out to me at - **zehuasong2000@outlook.com**.
 
+
 <span class='anchor' id='Research Highlights'></span>
-# 🎯 <font color="#4A708B">Research Highlights</font>
+# 🎯 <font color="#4A7A8B">Research Highlights</font>
 
 My research is organized into three core themes.
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-top: 25px;">
 
-  <div style="flex: 1; min-width: 300px; max-width: 32%; border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
+  <div class="research-card" style="flex: 1; min-width: 300px; max-width: 32%; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
       <h3 style="margin-top: 0px; color: #7A0019;">Predictive Modeling & Analysis</h3>
       <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Physics-Informed & Bayesian ML</h4>
@@ -51,7 +158,7 @@ My research is organized into three core themes.
     </div>
   </div>
 
-  <div style="flex: 1; min-width: 300px; max-width: 32%; border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
+  <div class="research-card" style="flex: 1; min-width: 300px; max-width: 32%; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
       <h3 style="margin-top: 0px; color: #7A0019;">Model Adaptation & Refinement</h3>
       <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Sim-to-Real Adaptation</h4>
@@ -66,7 +173,7 @@ My research is organized into three core themes.
     </div>
   </div>
 
-  <div style="flex: 1; min-width: 300px; max-width: 32%; border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
+  <div class="research-card" style="flex: 1; min-width: 300px; max-width: 32%; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
     <div>
       <h3 style="margin-top: 0px; color: #7A0019;">Intelligent Optimization & Control</h3>
       <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Deep Reinforcement Learning</h4>
@@ -81,6 +188,10 @@ My research is organized into three core themes.
   </div>
 </div>
 
+
+
+
+
 <span class='anchor' id='News'></span>
 # 🔥 <font color="#4A708B">News</font>
 
@@ -93,12 +204,13 @@ My research is organized into three core themes.
 
 
 
+
 <span class='anchor' id='Publications'></span>
 # 📝 <font color="#4A708B">Publications</font>
 
 <h3 style="margin-top: 30px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Under Review</h3>
 
-<div class='paper-box'>
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/RESS.pdf">Optimization of Multi-Objective Real-Time Drilling Operations Considering Lag Effects and Formation Variability</a></p>
@@ -115,7 +227,7 @@ My research is organized into three core themes.
 
 <h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
 
-<div class='paper-box'>
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/JPSE.pdf">A Multi-Objective Reinforcement Learning Framework for Real-Time Drilling Optimization Based on Symbolic Regression and Drilling Perception</a></p>
@@ -129,7 +241,7 @@ My research is organized into three core themes.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">ISOPE 2024</div><img src='images/ISOPE 2024.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/ISOPE 2024.pdf">A Real-Time Inversion Framework for Carbon Equivalent Emissions in Oil and Gas Extraction Based on Vision Transformer</a></p>
@@ -142,7 +254,7 @@ My research is organized into three core themes.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Ocean Engineering</div><img src='images/OE.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/OE.pdf">Multi-Objective Optimization Framework for Deepwater Riser Jetting Installation Parameters Using Deep Reinforcement Learning</a></p>
@@ -156,7 +268,7 @@ My research is organized into three core themes.
   </div>
 </div>
 
-<div class='paper-box'>
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/ISOPE 2023.pdf">Early Warning of Deep-Water Drilling Influx Based on Machine Learning</a></p>
@@ -182,13 +294,14 @@ My research is organized into three core themes.
 
 <h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">In Preparation</h3>
 
-<div class='paper-box'>
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">SPE Journal</div><img src='images/SPEJ.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p>Adaptive Drilling Decision-Making Framework for Extended-Reach Wells under Multiple Objectives</p>
     <p>Yu Song, <strong>Zehua Song</strong>, ……</p>
   </div>
 </div>
+
 
 
 
