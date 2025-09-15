@@ -227,11 +227,57 @@ My research is organized into three core themes.
 <h3 style="margin-top: 30px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Under Review</h3>
 
 <div class='paper-box publication-card'>
+  <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper5.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="#">Hierarchical Bayesian Physics-Informed Network Model for Open-Hole Wellbore Instability: From Parameter Uncertainty to Reliability Assessment</a></p>
+    <p><strong>Zehua Song</strong>, Yu Song, Jin Yang, Kejin Chen, Jianqiao Zhang, Xing Wang</p>
+    <p><a href="#"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>A Hierarchical Bayesian Physics-Informed Network for Coupled Multi-Physics Systems.</li>
+      <li>Fusing PINN-based Prediction with Bayesian Inference for Robust Uncertainty Quantification.</li>
+      <li>Providing a Dynamic "Earliest Failure Time Profile" for Operational Decision Support.</li>
+    </ul>
+  </div>
+</div>
+
+<div class='paper-box publication-card'>
+  <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper6.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="#">Intelligent Prediction and Optimization of Open-Hole Wellbore Multiphysics Stability: A Synergistic PINN-DRL Approach</a></p>
+    <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Kejin Chen, Kun Jiang, Jizhou Tang</p>
+    <p><a href="#"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>A Synergistic PINN-DRL Framework for Integrated Prediction and Control.</li>
+      <li>Establishing a Physics-Informed Digital Twin for High-Speed, Physically-Consistent State Prediction.</li>
+      <li>DRL-Driven Optimization of Drilling Fluid Parameters, Achieving a 32.33% Average Delay in Instability Onset.</li>
+    </ul>
+  </div>
+</div>
+
+
+<div class='paper-box publication-card'>
+  <div class='paper-box-image'><div><div class="badge">Acta Petrolei Sinica (石油学报)</div><img src='images/Asia.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="#">A Parzen-Estimator-Enhanced Bayesian Optimization Framework for Deepwater Conductor Jetting</a></p>
+    <p>Yu Song, Jin Yang, <strong>Zehua Song</strong></p>
+    <p><a href="#"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>A Phased Bayesian Optimization Framework Combining Global Search and Local Refinement.</li>
+      <li>Achieving a 12.78% Reduction in Total Installation Time by Optimizing the Trade-off Between Drilling and Soaking Phases.</li>
+    </ul>
+  </div>
+</div>
+
+
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
+
+
+<div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS-1.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
-    <p><a href="papers/RESS.pdf">Optimization of Multi-Objective Real-Time Drilling Operations Considering Lag Effects and Formation Variability</a></p>
+    <p><a href="papers/RESS.pdf">Enhancing energy efficiency and sustainability in offshore drilling through real-time multi-objective optimization: Considering lag effects and formation variability</a></p>
     <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Kejin Chen, Jizhou Tang</p>
-    <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4937873"><strong>Highlights</strong></a></p>
+    <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0951832025003394"><strong>Highlights</strong></a></p>
     <ul>
       <li>AI-Enhanced Framework Addressing Formation Variability in Offshore Drilling.</li>
       <li>Mitigating Lag Effects for Enhanced Formation Perception and Safety.</li>
@@ -241,7 +287,6 @@ My research is organized into three core themes.
 </div>
 
 
-<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
 
 <div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE-1.svg' alt="sym" width="100%"></div></div>
