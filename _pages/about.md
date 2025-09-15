@@ -153,7 +153,7 @@ During my Master's, I published **over 10 papers** in top-tier journals and conf
 If you are interested in any aspect of my work, I am always open to discussions and collaborations. Feel free to reach out to me at - **zehuasong2000@outlook.com**.
 
 
-<span class='anchor' id='Research Highlights'></span>
+<span class='anchor' id='Research-Highlights'></span>
 # 🎯 <font color="#0056b3">Research Highlights</font>
 
 My research is organized into three core themes.
@@ -363,7 +363,7 @@ My research is organized into three core themes.
 
 
 
-<span class='anchor' id='Honors and Awards'></span>
+<span class='anchor' id='Honors-and-Awards'></span>
 # 🏆️ <font color="#0056b3">Honors and Awards</font>
 
 <div style="font-size: 0.99em;">
@@ -454,7 +454,7 @@ My research is organized into three core themes.
 </div>
 
 
-<span class='anchor' id='Oral Presentations'></span>
+<span class='anchor' id='Oral-Presentations'></span>
 # 💬 <font color="#0056b3">Oral Presentations</font>
 
 <div style="font-size: 0.99em;">
@@ -479,7 +479,7 @@ My research is organized into three core themes.
 </div>
 
 
-<span class='anchor' id='Industry Experience'></span>
+<span class='anchor' id='Industry-Experience'></span>
 # 💻 <font color="#0056b3">Industry Experience</font>
 
 <div style="font-size: 0.99em;">
@@ -511,7 +511,7 @@ My research is organized into three core themes.
 </div>
 
 
-<span class='anchor' id='Visitor Map'></span>
+<span class='anchor' id='Visitor-Map'></span>
 # 🌏️ <font color="#0056b3">Visitor Map</font>
 
 <div id="clustrmaps-container" style="width: 250px; height: 250px; margin: 0 auto;">
