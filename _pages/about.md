@@ -211,15 +211,11 @@ My research is organized into three core themes.
 <span class='anchor' id='News'></span>
 # 🔥 <font color="#0056b3">News</font>
 
-<div style="font-size: 1em;" markdown="1">
-- ***2025.09*** &nbsp;🎉🎉 Paper on our multi-objective DRL framework for drilling optimization published in **Geoenergy Science and Engineering**!
-- ***2025.07*** &nbsp;🎉🎉 Selected as one of 100 National Representatives for the National Scholarship, featured in the **People's Daily**.
-- ***2024.06*** &nbsp;🎉🎉 Presented my first-author research on Vision Transformers at **ISOPE 2024** in Rhodes, Greece.
-- ***2024.04*** &nbsp;🎉🎉 Our paper on multi-objective optimization was published in **Reliability Engineering & System Safety**.
+<div style="font-size: 0.92em;" markdown="1">
+- ***2025.05*** &nbsp;🎉🎉 Humbled to be selected as one of 100 National Representatives for the National Scholarship, an honor featured in the **People's Daily**.
+- ***2024.11*** &nbsp;🎉🎉 Our research on DRL for riser jetting, published in **Ocean Engineering**, was featured on **CCTV-10's "Ocean Strategy"** program!
+- ***2022.07*** &nbsp;🎉🎉 Honored to be invited to join the **Deep-Sea Engineering Innovation Team** at my university.
 </div>
-
-
-
 
 <span class='anchor' id='Publications'></span>
 # 📝 <font color="#0056b3">Publications</font>
