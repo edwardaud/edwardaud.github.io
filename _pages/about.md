@@ -15,173 +15,337 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+
 <span class='anchor' id='about-me'></span>
 # 🙋‍♂️ <font color="#4A708B">About Me</font>
 
-**A Problem-Solver Applying AI to Innovate in Complex Physical Systems.**
+<p style="text-align: center; font-size: 1.2em; font-weight: bold; color: #7A0019; margin-bottom: 25px;">
+A Problem-Solver Applying AI to Innovate in Complex Physical Systems.
+</p>
 
-I recently graduated with a **Master of Science in Artificial Intelligence** from the [China University of Petroleum (Beijing)](https://www.cup.edu.cn/), where I was advised by [Prof. Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Prof. Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). My research focused on building robust, intelligent systems to solve critical engineering challenges. I specialize in:
 
-* **Physics-Informed & Bayesian ML** for predictive modeling under uncertainty.
-* **Deep Reinforcement Learning** for dynamic optimal control.
-* **Sim-to-Real Adaptation** for deploying AI in real-world, dynamic environments.
+I recently graduated with a **Master of Science in Artificial Intelligence** from the [China University of Petroleum (Beijing)](https://www.cup.edu.cn/), where I was advised by [Prof. Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Prof. Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). My research focuses on building robust, intelligent systems to solve critical engineering challenges, with a special emphasis on the **three core themes highlighted below**.
 
 During my Master's, I published **over 10 papers** in top-tier journals and conferences (**6 as first author/primary contributor**) and was honored to be selected for the **"List of 100 Exemplary Graduate Student Winners"** nationwide for the National Scholarship. I have also gained practical industry experience through engagements with CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">, CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em;">, and Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle;">.
 
-My full academic profile, including publications and awards, can be found below. If you are interested in any aspect of my work, I am always open to discussions and collaborations. Feel free to reach out to me at - **zehuasong2000@outlook.com**.
+If you are interested in any aspect of my work, I am always open to discussions and collaborations. Feel free to reach out to me at - **zehuasong2000@outlook.com**.
 
+<span class='anchor' id='Research Highlights'></span>
 # 🎯 <font color="#4A708B">Research Highlights</font>
 
-My research is organized into three core themes. Please click on a highlight to see the detailed project presentation.
+My research is organized into three core themes.
 
-| [**Physics-Informed & Bayesian ML**<br>*(for predictive modeling under uncertainty)*]({{ "/images/Rh1.mp4" | relative_url }}) | [**Sim-to-Real Adaptation**<br>*(for deploying AI in real-world, dynamic environments)*](Your_PPT.pdf#page=8) | [**Deep Reinforcement Learning**<br>*(for dynamic optimal control)*](Your_PPT.pdf#page=10) |
-| :---: | :---: | :---: |
-| My work on the **HBPINN** framework, which fuses PDEs with Bayesian Inference to create robust, uncertainty-aware digital twins. | My two-stage framework for model adaptation, using **DANN** for initial transfer and **Online Learning** for continuous improvement. | My work on the **DN-SAC** agent, which learns an instantaneous optimal policy to control complex systems in a POMDP setting. |
-| **Keywords:** PINNs, UQ, Digital Twins, Probabilistic Assessment | **Keywords:** DANN, Online Learning, Evergreen Models, R² > 0.99 | **Keywords:** DRL, Optimal Control, POMDP, World Models |
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin-top: 25px;">
 
+  <div style="flex: 1; min-width: 300px; max-width: 32%; border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h3 style="margin-top: 0px; color: #7A0019;">Predictive Modeling & Analysis</h3>
+      <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Physics-Informed & Bayesian ML</h4>
+      <p style="text-align: left; font-size: 0.95em;">My work on the <strong>HBPINN</strong> framework, which fuses PDEs with Bayesian Inference to create robust, uncertainty-aware digital twins.</p>
+    </div>
+    <div style="margin-top: 20px;">
+      <p style="text-align: left; font-size: 0.9em; color: #666;"><strong>Keywords:</strong> PINNs, Digital Twins, Probabilistic Assessment</p>
+      <p style="text-align: right; margin-top: 20px;">
+        <a href="{{ "/images/Rh1.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none;">「Link 1」</a>
+      </p>
+    </div>
+  </div>
 
+  <div style="flex: 1; min-width: 300px; max-width: 32%; border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h3 style="margin-top: 0px; color: #7A0019;">Model Adaptation & Refinement</h3>
+      <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Sim-to-Real Adaptation</h4>
+      <p style="text-align: left; font-size: 0.95em;">My two-stage framework for model adaptation, using <strong>DANN</strong> for initial transfer and <strong>Online Learning</strong> for continuous improvement.</p>
+    </div>
+    <div style="margin-top: 20px;">
+      <p style="text-align: left; font-size: 0.9em; color: #666;"><strong>Keywords:</strong> DANN, Online Learning, Evergreen Models</p>
+      <p style="text-align: right; margin-top: 20px;">
+        <a href="{{ "/images/Rh2_DANN.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none;">「Link 1」</a>
+        <a href="{{ "/images/Rh2_Online.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none; margin-left: 15px;">「Link 2」</a>
+      </p>
+    </div>
+  </div>
+
+  <div style="flex: 1; min-width: 300px; max-width: 32%; border: 1px solid #e0e0e0; border-radius: 12px; padding: 25px 25px 5px 25px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: all 0.3s ease; display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h3 style="margin-top: 0px; color: #7A0019;">Intelligent Optimization & Control</h3>
+      <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Deep Reinforcement Learning</h4>
+      <p style="text-align: left; font-size: 0.95em;">My work on the <strong>DN-SAC</strong> agent, which learns an instantaneous optimal policy to control complex systems in a POMDP setting.</p>
+    </div>
+    <div style="margin-top: 20px;">
+      <p style="text-align: left; font-size: 0.9em; color: #666;"><strong>Keywords:</strong> DRL, Optimal Control, World Models</p>
+      <p style="text-align: right; margin-top: 20px;">
+        <a href="{{ "/images/Rh3.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none;">「Link 1」</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<span class='anchor' id='News'></span>
 # 🔥 <font color="#4A708B">News</font>
-- *2021.10*: &nbsp;🎉🎉 Honored to join the Deep-Sea Engineering Innovation Team. 
+
+<div style="font-size: 1em;" markdown="1">
+- ***2025.09*** &nbsp;🎉🎉 Paper on our multi-objective DRL framework for drilling optimization published in **Geoenergy Science and Engineering**!
+- ***2025.07*** &nbsp;🎉🎉 Selected as one of 100 National Representatives for the National Scholarship, featured in the **People's Daily**.
+- ***2024.06*** &nbsp;🎉🎉 Presented my first-author research on Vision Transformers at **ISOPE 2024** in Rhodes, Greece.
+- ***2024.04*** &nbsp;🎉🎉 Our paper on multi-objective optimization was published in **Reliability Engineering & System Safety**.
+</div>
 
 
+
+<span class='anchor' id='Publications'></span>
 # 📝 <font color="#4A708B">Publications</font>
-<span style="font-size: 1.2em; font-weight: bold; font-style: italic;">Published</span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Early Warning of Deep-Water Drilling Influx Based on Machine Learning](papers/ISOPE 2023.pdf)
+<h3 style="margin-top: 30px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Under Review</h3>
 
-Qishuai Yin, **Zehua Song**, Kejin Chen, Xu Zhou, Mayank Tyagi, Li Li
-
-[**Highlights**](https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE23/All-ISOPE23/524254) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Enhanced Signal Monitoring with Side-Bypass Pipe Design. 
-- Integrated Monitoring to Resolve Delays and Inaccuracies. 
-- Machine Learning Innovations for Gas Kick Early Warning. 
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Ocean Engineering</div><img src='images/OE.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Multi-Objective Optimization Framework for Deepwater Riser Jetting Installation Parameters Using Deep Reinforcement Learning](papers/OE.pdf)
-
-Yu Song, **Zehua Song**, Jin Yang, Lei Li
-
-[**Highlights**](https://www.sciencedirect.com/science/article/abs/pii/S0029801824017360) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Advanced Prediction Model for Conductor Casing Jetting Time. 
-- Comprehensive Mechanism Analysis and Optimization Framework. 
-- Reinforcement Learning-Driven Optimization and Practical Validation. 
-</div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="papers/RESS.pdf">Optimization of Multi-Objective Real-Time Drilling Operations Considering Lag Effects and Formation Variability</a></p>
+    <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Kejin Chen, Jizhou Tang</p>
+    <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4937873"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>AI-Enhanced Framework Addressing Formation Variability in Offshore Drilling.</li>
+      <li>Mitigating Lag Effects for Enhanced Formation Perception and Safety.</li>
+      <li>Empirical Validation Highlighting Efficiency Gains and Sustainability.</li>
+    </ul>
+  </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISOPE 2024</div><img src='images/ISOPE 2024.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
 
-[A Real-Time Inversion Framework for Carbon Equivalent Emissions in Oil and Gas Extraction Based on Vision Transformer](papers/ISOPE 2024.pdf)
-
-**Zehua Song**, Xiaoyang Yu, Yu Song, Jin Yang, Dongsheng Xu, Kejin Chen, Fangfei Huang, Bin Chen, Yanwei Song
-
-[**Highlights**](https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE24/All-ISOPE24/546127) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- ViT-UNet Framework for Carbon Emission Quantification. 
-- Spatial Distribution Analysis of Offshore Carbon Emissions. 
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Multi-Objective Reinforcement Learning Framework for Real-Time Drilling Optimization Based on Symbolic Regression and Drilling Perception](papers/JPSE.pdf)
-
-**Zehua Song**, Yu Song, Jin Yang, Baosheng Liu, Bingzhen Gao, Jizhou Tang
-
-
-[**Highlights**](https://www.sciencedirect.com/science/article/pii/S2949891024007620) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Integrating Symbolic Regression for Enhanced Drilling Parameter Mapping. 
-- Advancing Drilling Perception with Real-Time Adaptability. 
-- Empirical Validation and Broad Applicability in Drilling Optimization.
-</div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="papers/JPSE.pdf">A Multi-Objective Reinforcement Learning Framework for Real-Time Drilling Optimization Based on Symbolic Regression and Drilling Perception</a></p>
+    <p><strong>Zehua Song</strong>, Yu Song, Jin Yang, Baosheng Liu, Bingzhen Gao, Jizhou Tang</p>
+    <p><a href="https://www.sciencedirect.com/science/article/pii/S2949891024007620"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>Integrating Symbolic Regression for Enhanced Drilling Parameter Mapping.</li>
+      <li>Advancing Drilling Perception with Real-Time Adaptability.</li>
+      <li>Empirical Validation and Broad Applicability in Drilling Optimization.</li>
+    </ul>
+  </div>
 </div>
 
-
-
-<span style="font-size: 1.2em; font-weight: bold; font-style: italic;">Under Review</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Optimization of Multi-Objective Real-Time Drilling Operations Considering Lag Effects and Formation Variability](papers/RESS.pdf)
-
-Yu Song, **Zehua Song**, Jin Yang, Kejin Chen, Jizhou Tang
-
-[**Highlights**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4937873) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- AI-Enhanced Framework Addressing Formation Variability in Offshore Drilling. 
-- Mitigating Lag Effects for Enhanced Formation Perception and Safety. 
-- Empirical Validation Highlighting Efficiency Gains and Sustainability.
-</div>
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">ISOPE 2024</div><img src='images/ISOPE 2024.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="papers/ISOPE 2024.pdf">A Real-Time Inversion Framework for Carbon Equivalent Emissions in Oil and Gas Extraction Based on Vision Transformer</a></p>
+    <p><strong>Zehua Song</strong>, Xiaoyang Yu, Yu Song, Jin Yang, Dongsheng Xu, Kejin Chen, Fangfei Huang, Bin Chen, Yanwei Song</p>
+    <p><a href="https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE24/All-ISOPE24/546127"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>ViT-UNet Framework for Carbon Emission Quantification.</li>
+      <li>Spatial Distribution Analysis of Offshore Carbon Emissions.</li>
+    </ul>
+  </div>
 </div>
 
-<span style="font-size: 1.2em; font-weight: bold; font-style: italic;">Others</span>
-
-- <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em; line-height: 1;">GOTECH 2023</span> [Research on Pore Pressure Prediction Technology of HTHP Wells in South China Sea Based on Machine Learning](papers/GOTECH 2023-Xu.pdf), Dongsheng Xu, Jin Yang, Yuhang Zhao, Jianchun Fan, Yanjun Li, Xun Liu, Kejin Chen, **Zehua Song**, Xun Zhang, Hong Zhu
-
-- <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em;">OTC 2023</span> [Digital Twin: Hybrid Virtual Simulation and Physical Monitoring Strategy for Long-Term Safe Operation of Floating Production Platform-Hybrid Polyester Mooring Lines-Steel Catenary Risers Multibody System in the South China Sea](papers/OTC 2023-Chen.pdf), Kejin Chen, Jin Yang, Qishuai Yin, Tyagi Mayank, Bingzhen Gao, **Zehua Song**, Shu Jia, Shuai Liu, Bin Xie, Hongsheng Chen
-
-- <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em;">ISOPE 2024</span> [Deep Ocean Hydrographic Element Acquisition Device Based on Edge Computing Technology](papers/ISOPE 2024-Gao.pdf), Bingzhen Gao, Jin Yang, Qishuai Yin, Kejin Chen, **Zehua Song**, Guojin Zhu
-
-
-
-
-<span style="font-size: 1.2em; font-weight: bold; font-style: italic;">In Preparation</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SPE Journal</div><img src='images/SPEJ.svg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Adaptive Drilling Decision-Making Framework for Extended-Reach Wells under Multiple Objectives
-
-Yu Song, **Zehua Song**, ……
-
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">Ocean Engineering</div><img src='images/OE.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="papers/OE.pdf">Multi-Objective Optimization Framework for Deepwater Riser Jetting Installation Parameters Using Deep Reinforcement Learning</a></p>
+    <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Lei Li</p>
+    <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0029801824017360"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>Advanced Prediction Model for Conductor Casing Jetting Time.</li>
+      <li>Comprehensive Mechanism Analysis and Optimization Framework.</li>
+      <li>Reinforcement Learning-Driven Optimization and Practical Validation.</li>
+    </ul>
+  </div>
 </div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p><a href="papers/ISOPE 2023.pdf">Early Warning of Deep-Water Drilling Influx Based on Machine Learning</a></p>
+    <p>Qishuai Yin, <strong>Zehua Song</strong>, Kejin Chen, Xu Zhou, Mayank Tyagi, Li Li</p>
+    <p><a href="https://onepetro.org/ISOPEIOPEC/proceedings-abstract/ISOPE23/All-ISOPE23/524254"><strong>Highlights</strong></a></p>
+    <ul>
+      <li>Enhanced Signal Monitoring with Side-Bypass Pipe Design.</li>
+      <li>Integrated Monitoring to Resolve Delays and Inaccuracies.</li>
+      <li>Machine Learning Innovations for Gas Kick Early Warning.</li>
+    </ul>
+  </div>
 </div>
 
 
-<span class='anchor' id='-honors-and-awards'></span>
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Other Co-authored Works</h3>
+
+<div markdown="1" style="font-size: 0.95em; padding-left: 15px;">
+- <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em; line-height: 1;">GOTECH 2023</span> <a href="papers/GOTECH 2023-Xu.pdf">Research on Pore Pressure Prediction Technology of HTHP Wells in South China Sea Based on Machine Learning</a>, Dongsheng Xu, Jin Yang, ..., <strong>Zehua Song</strong>, et al.
+- <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em; line-height: 1;">OTC 2023</span> <a href="papers/OTC 2023-Chen.pdf">Digital Twin: Hybrid Virtual Simulation and Physical Monitoring Strategy...</a>, Kejin Chen, Jin Yang, ..., <strong>Zehua Song</strong>, et al.
+- <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em; line-height: 1;">ISOPE 2024</span> <a href="papers/ISOPE 2024-Gao.pdf">Deep Ocean Hydrographic Element Acquisition Device Based on Edge Computing...</a>, Bingzhen Gao, Jin Yang, ..., <strong>Zehua Song</strong>, et al.
+</div>
+
+
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">In Preparation</h3>
+
+<div class='paper-box'>
+  <div class='paper-box-image'><div><div class="badge">SPE Journal</div><img src='images/SPEJ.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-text'>
+    <p>Adaptive Drilling Decision-Making Framework for Extended-Reach Wells under Multiple Objectives</p>
+    <p>Yu Song, <strong>Zehua Song</strong>, ……</p>
+  </div>
+</div>
+
+
+
+
+<span class='anchor' id='Honors and Awards'></span>
 # 🏆️ <font color="#4A708B">Honors and Awards</font>
 
-- *2024.10* **National Scholarship for Postgraduates** (Top 1%) (National Level)      
-- *2022.12* First Prize, National College Students Data Analysis Competition (National Level)
-- *2022.11* Second Prize, 4th National Finals of China Ocean Engineering Design Competition (National Level)                                                                                                     
-- *2023.02* Second Prize, “Huashu Cup” National College Students Mathematical Modeling Competition (Provincial Level)
-- *2021.04* Second Prize, MathorCup National University Mathematical Modeling Challenge (Provincial Level)
-- *2025.01* **Professional Practice Excellence Award**, China University of Petroleum (Beijing) (Top 1%)
-- *2023.10* Outstanding Graduate Student Award, China University of Petroleum (Beijing)
-- *2019.10* **United Energy Outstanding Student Scholarship**, China University of Petroleum (Beijing) (Top 1%)                                                                                                                
+<div style="font-size: 0.99em;">
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tbody>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="color: #7A0019; font-weight: bold;">One of 100 Exemplary Graduate Student Winners</span> (Featured in the People's Daily)
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2025</em></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="color: #7A0019; font-weight: bold;">Beijing Outstanding Graduate</span> (A top honor awarded by the Beijing Government)
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2025</em></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="font-weight: bold;">Professional Practice Excellence Award</span> (Top 1%)
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2025</em></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="color: #7A0019; font-weight: bold;">National Scholarship for Postgraduates</span> (Top 1% Nationwide)
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2024</em></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="color: #7A0019; font-weight: bold;">First Prize, National College Students Data Analysis Competition</span>
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2022</em></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="font-weight: bold;">Second Prize, National Finals of China Ocean Engineering Design Competition</span>
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2022</em></td>
+    </tr>
+     <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="font-weight: bold;">First-Class Scholarship</span> (Awarded for 5 consecutive years)
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2020 - 2024</em></td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 5px 10px 5px 0; text-align: left;">
+        <span style="font-weight: bold;">United Energy Outstanding Student Scholarship</span> (Top 1%)
+      </td>
+      <td style="border: none; padding: 5px 0; text-align: left; width: 15%;"><em>2019</em></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
+<span class='anchor' id='Education'></span>
+# 📖 <font color="#4A708B">Education</font>
 
-# 📖 <font color="#4A708B">Educations</font>
-- *2022.09 - 2025.06*, China University of Petroleum (Beijing), Main Campus (211, Double First-Class), Artificial Intelligence (Master)
-- *2019.12 - 2022.07*, China University of Petroleum (Beijing), Main Campus (211, Double First-Class), Artificial Intelligence (Bachelor)
-- *2018.09 - 2019.12*, China University of Petroleum (Beijing), Karamay Campus (211, Double First-Class), Oil and Gas Storage and Transportation Engineering (Selected for Integrated Bachelor's-Master's Program in AI for Oil and Gas)
+<div style="font-size: 0.99em;">
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tbody>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>M.Sc. in Artificial Intelligence</strong><br>
+        <small style="color: #555;">China University of Petroleum (Beijing) (Project 211, Double First-Class)</small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">2022.09 - 2025.06</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>B.Eng. in Artificial Intelligence</strong><br>
+        <small style="color: #555;">China University of Petroleum (Beijing)</small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">2019.12 - 2022.07</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>B.Eng. in Oil and Gas Storage and Transportation Engineering</strong><br>
+        <small style="color: #7A0019;">*Selected for the highly competitive Integrated Bachelor's-Master's Program in AI.*</small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">2018.09 - 2019.12</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
-
+<span class='anchor' id='Oral Presentations'></span>
 # 💬 <font color="#4A708B">Oral Presentations</font>
-- *2024.06*, Rhodes, Greece, ISOPE 2024
-- *2023.06*, Vancouver, Canada, ISOPE 2023
+
+<div style="font-size: 0.99em;">
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tbody>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>International Society of Offshore and Polar Engineers 2024 Conference</strong><br>
+        <small style="color: #555;"><em>A Real-Time Inversion Framework for Carbon Equivalent Emissions Based on Vision Transformer</em></small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">Rhodes, Greece<br>2024.06</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>International Society of Offshore and Polar Engineers 2023 Conference</strong><br>
+        <small style="color: #555;"><em>Early Warning of Deep-Water Drilling Influx Based on Machine Learning</em></small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">Vancouver, Canada<br>2023.06</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
-# 💻 <font color="#4A708B">Internships</font>
-- *2023.11 - 2023.11*, CNOOC Hainan Branch, Haikou
-- *2023.10 - 2023.10*, CNOOC Shenzhen Branch, Shenzhen
-- *2023.07 - 2023.09*, CNOOC Hainan Branch, Haikou
-- *2023.05 - 2023.05*, CNOOC Shenzhen Branch, Shenzhen
-- *2021.07 - 2021.09*, Kingsoft Cloud, Beijing
-- *2019.07 - 2019.08*, CNPC Xinjiang Oilfield Branch, Karamay
+<span class='anchor' id='Industry Experience'></span>
+# 💻 <font color="#4A708B">Industry Experience</font>
 
-<span class='anchor' id='-visitor-map'></span>
+<div style="font-size: 0.99em;">
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tbody>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>Visiting Student Researcher, CNOOC Ltd. (Hainan & Shenzhen)</strong><br>
+        <small style="color: #555;">Focused on offshore engineering operations and the architecture of real-time data acquisition systems.</small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">2023</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>Data Science Intern, Kingsoft Cloud</strong><br>
+        <small style="color: #555;">Worked on cloud computing infrastructure and data processing pipelines for enterprise-level clients.</small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">2021.07 - 2021.09</td>
+    </tr>
+    <tr style="border: none;">
+      <td style="border: none; padding: 8px 10px 8px 0; text-align: left;">
+        <strong>Field Engineering Intern, CNPC Xinjiang Oilfield</strong><br>
+        <small style="color: #555;">Acquired foundational experience in oil & gas field operations and data collection protocols.</small>
+      </td>
+      <td style="border: none; padding: 8px 0; text-align: left; width: 15%; font-style: italic; color: #555;">2019.07 - 2019.08</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<span class='anchor' id='Visitor Map'></span>
 # 🌏️ <font color="#4A708B">Visitor Map</font>
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=375e86&w=370&t=tt&d=2a65RVkDQtsNVgLvnJPUt-6ACnWUxt8CSOdNZ81OM1A&co=9ecdee&cmo=ffbdf7&cmn=fffc2e&ct=000000"></script>
+
+<div id="clustrmaps-container" style="width: 250px; height: 250px; margin: 0 auto;">
+
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=2a65RVkDQtsNVgLvnJPUt-6ACnWUxt8CSOdNZ81OM1A"></script>
+
+</div>
