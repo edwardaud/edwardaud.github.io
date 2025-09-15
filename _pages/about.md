@@ -108,6 +108,22 @@ redirect_from:
   }
 
 
+  /* 新增：为 Publication 子标题设计的“胶囊”样式 */
+  .publication-subheading {
+    display: inline-block; /* 让容器宽度自适应文字内容 */
+    background-color: #4A708B; /* 使用主标题的蓝色 */
+    color: white;
+    padding: 8px 20px;
+    border-radius: 999px; /* 创建完美的胶囊形状 */
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  /* 第一个子标题的上边距可以小一些 */
+  .publication-subheading:first-of-type {
+    margin-top: 30px;
+  }
 
 </style>
 
@@ -123,7 +139,7 @@ redirect_from:
 
 
 <span class='anchor' id='about-me'></span>
-# 🙋‍♂️ <font color="#4A708B">About Me</font>
+# 🙋‍♂️ <font color="#0056b3">About Me</font>
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold; color: #7A0019; margin-bottom: 25px;">
 A Problem-Solver Applying AI to Innovate in Complex Physical Systems.
@@ -138,7 +154,7 @@ If you are interested in any aspect of my work, I am always open to discussions 
 
 
 <span class='anchor' id='Research Highlights'></span>
-# 🎯 <font color="#4A7A8B">Research Highlights</font>
+# 🎯 <font color="#0056b3">Research Highlights</font>
 
 My research is organized into three core themes.
 
@@ -193,7 +209,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='News'></span>
-# 🔥 <font color="#4A708B">News</font>
+# 🔥 <font color="#0056b3">News</font>
 
 <div style="font-size: 1em;" markdown="1">
 - ***2025.09*** &nbsp;🎉🎉 Paper on our multi-objective DRL framework for drilling optimization published in **Geoenergy Science and Engineering**!
@@ -206,12 +222,12 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Publications'></span>
-# 📝 <font color="#4A708B">Publications</font>
+# 📝 <font color="#0056b3">Publications</font>
 
 <h3 style="margin-top: 30px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Under Review</h3>
 
 <div class='paper-box publication-card'>
-  <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/RESS-1.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/RESS.pdf">Optimization of Multi-Objective Real-Time Drilling Operations Considering Lag Effects and Formation Variability</a></p>
     <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Kejin Chen, Jizhou Tang</p>
@@ -228,7 +244,7 @@ My research is organized into three core themes.
 <h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
 
 <div class='paper-box publication-card'>
-  <div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image'><div><div class="badge">Geoenergy Science and Engineering</div><img src='images/JPSE-1.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/JPSE.pdf">A Multi-Objective Reinforcement Learning Framework for Real-Time Drilling Optimization Based on Symbolic Regression and Drilling Perception</a></p>
     <p><strong>Zehua Song</strong>, Yu Song, Jin Yang, Baosheng Liu, Bingzhen Gao, Jizhou Tang</p>
@@ -242,7 +258,7 @@ My research is organized into three core themes.
 </div>
 
 <div class='paper-box publication-card'>
-  <div class='paper-box-image'><div><div class="badge">ISOPE 2024</div><img src='images/ISOPE 2024.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image'><div><div class="badge">ISOPE 2024</div><img src='images/ISOPE 2024-1.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/ISOPE 2024.pdf">A Real-Time Inversion Framework for Carbon Equivalent Emissions in Oil and Gas Extraction Based on Vision Transformer</a></p>
     <p><strong>Zehua Song</strong>, Xiaoyang Yu, Yu Song, Jin Yang, Dongsheng Xu, Kejin Chen, Fangfei Huang, Bin Chen, Yanwei Song</p>
@@ -255,7 +271,7 @@ My research is organized into three core themes.
 </div>
 
 <div class='paper-box publication-card'>
-  <div class='paper-box-image'><div><div class="badge">Ocean Engineering</div><img src='images/OE.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image'><div><div class="badge">Ocean Engineering</div><img src='images/OE1.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/OE.pdf">Multi-Objective Optimization Framework for Deepwater Riser Jetting Installation Parameters Using Deep Reinforcement Learning</a></p>
     <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Lei Li</p>
@@ -269,7 +285,7 @@ My research is organized into three core themes.
 </div>
 
 <div class='paper-box publication-card'>
-  <div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image'><div><div class="badge">ISOPE 2023</div><img src='images/ISOPE 2023-1.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a href="papers/ISOPE 2023.pdf">Early Warning of Deep-Water Drilling Influx Based on Machine Learning</a></p>
     <p>Qishuai Yin, <strong>Zehua Song</strong>, Kejin Chen, Xu Zhou, Mayank Tyagi, Li Li</p>
@@ -307,7 +323,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Honors and Awards'></span>
-# 🏆️ <font color="#4A708B">Honors and Awards</font>
+# 🏆️ <font color="#0056b3">Honors and Awards</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -366,7 +382,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Education'></span>
-# 📖 <font color="#4A708B">Education</font>
+# 📖 <font color="#0056b3">Education</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -398,7 +414,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Oral Presentations'></span>
-# 💬 <font color="#4A708B">Oral Presentations</font>
+# 💬 <font color="#0056b3">Oral Presentations</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -423,7 +439,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Industry Experience'></span>
-# 💻 <font color="#4A708B">Industry Experience</font>
+# 💻 <font color="#0056b3">Industry Experience</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -455,7 +471,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Visitor Map'></span>
-# 🌏️ <font color="#4A708B">Visitor Map</font>
+# 🌏️ <font color="#0056b3">Visitor Map</font>
 
 <div id="clustrmaps-container" style="width: 250px; height: 250px; margin: 0 auto;">
 
