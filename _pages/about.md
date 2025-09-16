@@ -183,8 +183,8 @@ My research is organized into three core themes.
     <div style="margin-top: 20px;">
       <p style="text-align: left; font-size: 0.9em; color: #666;"><strong>Keywords:</strong> DANN, Online Learning, Evergreen Models</p>
       <p style="text-align: right; margin-top: 20px;">
-        <a href="{{ "/images/Rh2_DANN.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none;">「Link 1」</a>
-        <a href="{{ "/images/Rh2_Online.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none; margin-left: 15px;">「Link 2」</a>
+        <a href="{{ "/images/Rh2-1.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none;">「Link 1」</a>
+        <a href="{{ "/images/Rh2-2.mp4" | relative_url }}" style="font-size: 0.9em; color: #0056b3; font-weight: bold; text-decoration: none; margin-left: 15px;">「Link 2」</a>
       </p>
     </div>
   </div>
