@@ -225,9 +225,9 @@ My research is organized into three core themes.
 <div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper5.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
-    <p><a href="#">Hierarchical Bayesian Physics-Informed Network Model for Open-Hole Wellbore Instability: From Parameter Uncertainty to Reliability Assessment</a></p>
+    <p><a >Hierarchical Bayesian Physics-Informed Network Model for Open-Hole Wellbore Instability: From Parameter Uncertainty to Reliability Assessment</a></p>
     <p><strong>Zehua Song</strong>, Yu Song, Jin Yang, Kejin Chen, Jianqiao Zhang, Xing Wang</p>
-    <p><a href="#"><strong>Highlights</strong></a></p>
+    <p><a ><strong>Highlights</strong></a></p>
     <ul>
       <li>A Hierarchical Bayesian Physics-Informed Network for Coupled Multi-Physics Systems.</li>
       <li>Fusing PINN-based Prediction with Bayesian Inference for Robust Uncertainty Quantification.</li>
@@ -239,9 +239,9 @@ My research is organized into three core themes.
 <div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper6.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
-    <p><a href="#">Intelligent Prediction and Optimization of Open-Hole Wellbore Multiphysics Stability: A Synergistic PINN-DRL Approach</a></p>
+    <p><a >Intelligent Prediction and Optimization of Open-Hole Wellbore Multiphysics Stability: A Synergistic PINN-DRL Approach</a></p>
     <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Kejin Chen, Kun Jiang, Jizhou Tang</p>
-    <p><a href="#"><strong>Highlights</strong></a></p>
+    <p><a ><strong>Highlights</strong></a></p>
     <ul>
       <li>A Synergistic PINN-DRL Framework for Integrated Prediction and Control.</li>
       <li>Establishing a Physics-Informed Digital Twin for High-Speed, Physically-Consistent State Prediction.</li>
@@ -254,9 +254,9 @@ My research is organized into three core themes.
 <div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Acta Petrolei Sinica (石油学报)</div><img src='images/Asia.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
-    <p><a href="#">A Parzen-Estimator-Enhanced Bayesian Optimization Framework for Deepwater Conductor Jetting</a></p>
+    <p><a >A Parzen-Estimator-Enhanced Bayesian Optimization Framework for Deepwater Conductor Jetting</a></p>
     <p>Yu Song, Jin Yang, <strong>Zehua Song</strong></p>
-    <p><a href="#"><strong>Highlights</strong></a></p>
+    <p><a ><strong>Highlights</strong></a></p>
     <ul>
       <li>A Phased Bayesian Optimization Framework Combining Global Search and Local Refinement.</li>
       <li>Achieving a 12.78% Reduction in Total Installation Time by Optimizing the Trade-off Between Drilling and Soaking Phases.</li>
