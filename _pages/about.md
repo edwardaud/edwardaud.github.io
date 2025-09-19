@@ -237,7 +237,7 @@ My research is organized into three core themes.
 </div>
 
 <div class='paper-box publication-card'>
-  <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper6.svg' alt="sym" width="100%"></div></div>
+  <div class='paper-box-image'><div><div class="badge">International Journal of Rock Mechanics and Mining Sciences</div><img src='images/paper6.svg' alt="sym" width="100%"></div></div>
   <div class='paper-box-text'>
     <p><a >Intelligent Prediction and Optimization of Open-Hole Wellbore Multiphysics Stability: A Synergistic PINN-DRL Approach</a></p>
     <p>Yu Song, <strong>Zehua Song</strong>, Jin Yang, Kejin Chen, Kun Jiang, Jizhou Tang</p>
