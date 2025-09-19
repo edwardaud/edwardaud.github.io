@@ -193,7 +193,7 @@ My research is organized into three core themes.
     <div>
       <h3 style="margin-top: 0px; color: #7A0019;">Intelligent Optimization & Control</h3>
       <h4 style="font-style: italic; color: #555; margin-top: 5px; margin-bottom: 20px; font-weight: normal; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 8px 0;">Deep Reinforcement Learning</h4>
-      <p style="text-align: left; font-size: 0.95em;">My work on the <strong>DN-SAC</strong> agent, which learns an instantaneous optimal policy to control complex systems in a POMDP setting.</p>
+      <p style="text-align: left; font-size: 0.95em;">My work on the <strong>DN-SAC</strong> agent, which learns an instantaneous optimal policy to control complex systems in a MDP setting.</p>
     </div>
     <div style="margin-top: 20px;">
       <p style="text-align: left; font-size: 0.9em; color: #666;"><strong>Keywords:</strong> DRL, Optimal Control, World Models</p>
