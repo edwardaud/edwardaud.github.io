@@ -146,9 +146,9 @@ A Problem-Solver Applying AI to Innovate in Complex Physical Systems.
 </p>
 
 
-I recently graduated with a **Master of Science in Artificial Intelligence** from the [China University of Petroleum (Beijing)](https://www.cup.edu.cn/), where I was advised by [Prof. Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Prof. Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). My research focuses on building robust, intelligent systems to solve engineering challenges.
+I recently graduated with a **Master of Engineering (M.Eng.) in Artificial Intelligence** from the [China University of Petroleum (Beijing)](https://www.cup.edu.cn/), where I was advised by [Prof. Jin Yang](https://faculty.cup.edu.cn/yangjin/) and [Prof. Yu Song](https://www.cup.edu.cn/cupai/szdw/jsml/8dffb1d273ce495f8fbf8ac08cc014de.htm). My research focuses on building robust, intelligent systems to solve engineering challenges.
 
-During my Master's, I published **over 10 papers** in top-tier journals and conferences (**6 as first author/primary contributor**) and was honored to be selected for the **"List of 100 Exemplary Graduate Student Winners"** nationwide for the National Scholarship. I have also gained practical industry experience through engagements with CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">, CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em;">, and Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle;">.
+During my Master's, I published **over 10 papers** in top-tier journals and conferences (**4 as first author/primary contributor**) and was honored to be selected for the **"List of 100 Exemplary Graduate Student Winners"** nationwide for the National Scholarship. I have also gained practical industry experience through engagements with CNOOC <img src="images/CNOOC Limited.svg" alt="CNOOC Logo" style="height:1em; vertical-align:-0.15em;">, CNPC <img src="images/CNPC.svg" alt="CNPC Logo" style="height:1em; vertical-align:-0.15em;">, and Kingsoft Cloud <img src="images/Kingsoft Cloud.svg" alt="Kingsoft Cloud Logo" style="height:1em; vertical-align:middle;">.
 
 If you are interested in any aspect of my work, I am always open to discussions and collaborations. Feel free to reach out to me at - **zehuasong2000@outlook.com**.
 
@@ -511,10 +511,9 @@ My research is organized into three core themes.
 </div>
 
 
-<span class='anchor' id='Visitor-Map'></span>
-# 🌏️ <font color="#0056b3">Visitor Map</font>
 
-<div id="clustrmaps-container" style="width: 250px; height: 250px; margin: 0 auto;">
+<span class='anchor' id='Visitor-Map'></span>
+<div id="clustrmaps-container" style="width: 250px; height: 250px; margin: 0 auto; display: none;">
 
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=2a65RVkDQtsNVgLvnJPUt-6ACnWUxt8CSOdNZ81OM1A"></script>
 
