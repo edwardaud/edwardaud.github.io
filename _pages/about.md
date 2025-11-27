@@ -461,7 +461,7 @@ My research is organized into three core themes.
 <span class='anchor' id='Publications'></span>
 # <i class="fas fa-book-open dynamic-icon anim-breathe"></i> <font color="#0056b3">Publications</font>
 
-<div class="publication-subheading">Under Review</div>
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Under Review</h3>
 
 <div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper5.svg' alt="sym" width="100%"></div></div>
@@ -506,7 +506,7 @@ My research is organized into three core themes.
 </div>
 
 
-<div class="publication-subheading">Published</div>
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
 
 
 <div class='paper-box publication-card'>
