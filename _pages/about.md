@@ -350,6 +350,22 @@ redirect_from:
   .anim-swing { animation: swing-smooth 3.5s infinite ease-in-out; }
   .anim-float { animation: float-smooth 3s infinite ease-in-out alternate; }
 
+/* ================================================= */
+  /* [修复] 移动端优化：手机上隐藏动画防止崩溃/循环刷新 */
+  /* ================================================= */
+  
+  @media screen and (max-width: 768px) {
+    /* 在手机上完全隐藏恐龙游戏层 */
+    .dino-game-layer {
+      display: none !important;
+    }
+    
+    /* 确保导航栏在手机上依然清晰 */
+    .masthead {
+      background-color: #fff !important;
+      backdrop-filter: none !important;
+    }
+  }
 </style>
 
 
