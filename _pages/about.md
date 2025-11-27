@@ -581,7 +581,7 @@ My research is organized into three core themes.
 </div>
 
 
-<div class="publication-subheading">Other Co-authored Works</div>
+<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Other Co-authored Works</h3>
 
 <div markdown="1" style="font-size: 0.95em; padding-left: 15px;">
 - <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em; line-height: 1;">Process Safety and Environmental Protection</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957582025001119">Deep learning based early warning methodology for gas kick of deepwater drilling using pilot-scale rig data</a>, Qishuai Yin, Qikang Zhu, <strong>Zehua Song</strong>, et al.
