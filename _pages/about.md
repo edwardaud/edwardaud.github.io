@@ -8,122 +8,347 @@ redirect_from:
   - /about.html
 ---
 
+<div class="dino-game-layer">
+  
+  <div class="horizon"></div>
+
+  <div class="rocks-container">
+    <svg class="rock-icon" viewBox="0 0 50 30" style="left: 0px;">
+      <path d="M5 25 Q15 5 25 25 T45 25" stroke="#535353" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <svg class="rock-icon" viewBox="0 0 50 30" style="left: 600px;">
+       <path d="M10 25 Q20 10 30 25" stroke="#535353" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <div class="cactus-container">
+    <svg class="cactus-icon" viewBox="0 0 50 100" preserveAspectRatio="none">
+      <path d="M25 0 L25 100 M10 30 L10 60 L25 60 M40 20 L40 50 L25 50" stroke="#535353" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <svg class="cactus-icon large" viewBox="0 0 50 100" style="left: 400px;">
+        <path d="M25 0 L25 100 M5 40 Q5 65 25 65 M45 30 Q45 55 25 55" stroke="#535353" stroke-width="5" fill="none" />
+    </svg>
+  </div>
+
+  <div class="ghost-container">
+    <div class="ghost">
+        <div class="eyes"></div>
+    </div>
+  </div>
+
+  <div class="cloud-layer">
+    <svg class="cloud-svg" viewBox="0 0 100 40" width="60">
+      <path fill="#d0d0d0" d="M80 15 Q90 15 95 25 T80 35 H20 Q10 35 5 25 T20 15 Q25 5 40 5 T60 10 T80 15 Z"/>
+    </svg>
+  </div>
+
+</div>
+
 <style>
   /* ================================================= */
-  /* Research Card Styles (Top Section)                */
+  /* 0. 导航栏修复                                     */
   /* ================================================= */
-  
-  /* 卡片容器本身 - 需要相对定位来约束伪元素 */
-  .research-card {
-    position: relative; /* 关键：为伪元素提供定位锚点 */
-    overflow: hidden; /* 防止装饰条意外溢出 */
-    transition: background-color 0.3s ease; /* 保留背景色过渡效果 */
+  .masthead {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
   }
 
-  /* 默认状态的顶部装饰条 (使用 ::before 伪元素创建) */
+  /* ================================================= */
+  /* 1. Chrome Dino Engine (Customized)                */
+  /* ================================================= */
+  
+  :root {
+    --bg-speed: 5s; 
+  }
+
+  .dino-game-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    background-color: #fff;
+    overflow: hidden;
+    pointer-events: none;
+    opacity: 0.7; 
+  }
+
+  /* --- 2D 地平线 --- */
+  .horizon {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #535353;
+    opacity: 0.3;
+  }
+
+  /* --- [修改] 几何幽灵样式 --- */
+  
+  .ghost-container {
+    position: absolute;
+    /* [修改点 1] 大胆往下：从 10% 降到 5% */
+    bottom: 9%; 
+    left: 15%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .ghost {
+    width: 36px;
+    height: 36px;
+    background: #535353; 
+    position: absolute;
+    left: 0px; 
+    top: 0px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    opacity: 0.6; 
+    z-index: 2;
+    animation: ghost-bounce 0.6s infinite alternate ease-in-out;
+  }
+  
+  .eyes::before, .eyes::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    top: 10px;
+  }
+  .eyes::before { left: 8px; }
+  .eyes::after { right: 8px; }
+
+  @keyframes ghost-bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+  }
+
+
+  /* --- 仙人掌 (Cactus) --- */
+  .cactus-container {
+    position: absolute;
+    bottom: 10%; 
+    left: 100%; 
+    width: 2000px; 
+    height: 60px;
+    animation: obstacle-move 8s linear infinite;
+    z-index: 1; 
+  }
+
+  .cactus-icon {
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 50px;
+    opacity: 0.6;
+  }
+  
+  .cactus-icon.large {
+      width: 40px;
+      height: 65px;
+  }
+
+  /* --- [新增] 路面碎石 (Rocks) --- */
+  .rocks-container {
+    position: absolute;
+    bottom: 10%; /* 与仙人掌和地平线保持一致 */
+    left: 100%;
+    width: 2000px;
+    height: 30px;
+    /* 动画与仙人掌同步，但稍微延迟一点，形成错落感 */
+    animation: obstacle-move 8s linear infinite;
+    animation-delay: -3s; /* 错开时间，让石头出现在仙人掌之间的空隙 */
+    z-index: 1;
+  }
+
+  .rock-icon {
+    position: absolute;
+    bottom: 0;
+    width: 50px; /* 石头宽度 */
+    height: 30px;
+    opacity: 0.6;
+  }
+
+
+  @keyframes obstacle-move {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-120vw); }
+  }
+
+  /* --- 云朵 (Clouds) --- */
+  .cloud-layer {
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    animation: cloud-move 40s linear infinite;
+  }
+  
+  @keyframes cloud-move {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-120vw); }
+  }
+
+
+  /* ================================================= */
+  /* Research Card Styles (Original) - 保持不变        */
+  /* ================================================= */
+    
+  .research-card {
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0,0,0,0.03); 
+  }
+
   .research-card::before {
-    content: ''; /* 伪元素必需 */
-    position: absolute; /* 绝对定位于卡片内部 */
+    content: '';
+    position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%); /* 水平居中 */
-    width: 60%; /* 装饰条宽度，可自行调整 */
-    height: 4px; /* 默认的“细边框”厚度 */
-    background-color: #7A0019; /* 你的主题红色 */
+    transform: translateX(-50%);
+    width: 60%; 
+    height: 4px; 
+    background-color: #7A0019;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: height 0.3s ease;
   }
 
-  /* 悬停时卡片的变化 (只改变背景色) */
   .research-card:hover {
-    background-color: rgba(122, 0, 25, 0.05) !important; /* 保留极其淡的红色填充 */
+    background-color: rgba(122, 0, 25, 0.05) !important;
   }
 
-  /* 悬停时装饰条的变化 (加粗) */
   .research-card:hover::before {
-    height: 7px; /* 悬停时加粗后的厚度 */
+    height: 7px;
   }
 
-
   /* ================================================= */
-  /* Publication Card Styles (New Addition & Edits)    */
+  /* Publication Card Styles - 保持不变                */
   /* ================================================= */
 
-  /* 论文卡片容器 - 需要相对定位 */
   .publication-card {
     position: relative;
     transition: background-color 0.3s ease;
-	margin-bottom: 32px; /* 新增：为每个卡片添加32px的底部间距 */
+    margin-bottom: 32px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0,0,0,0.03);
   }
 
-  /* 默认状态的左侧装饰条 */
   .publication-card::before {
     content: '';
     position: absolute;
     left: 0;
     top: 50%;
-    transform: translateY(-50%); /* 垂直居中 */
+    transform: translateY(-50%);
     height: 60%; 
     width: 5px;  
-    background-color: #7A0019; /* 已更正为红色 */
+    background-color: #7A0019; 
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: width 0.3s ease;
   }
 
-  /* 悬停时卡片的变化 (只改变背景色) */
   .publication-card:hover {
-    background-color: rgba(122, 0, 25, 0.05); /* 保留极其淡的红色填充, !important 在这里非必需 */
+    background-color: rgba(122, 0, 25, 0.05);
   }
 
-  /* 悬停时装饰条的变化 (加粗) */
   .publication-card:hover::before {
-    width: 7px; /* 悬停时加粗后的厚度 */
+    width: 7px;
   }
-  
-  /* 修改：调整论文卡片内部的留白 */
+    
   .paper-box.publication-card {
     padding-top: 10px;
     padding-bottom: 15px;
-    padding-left: 20px;  /* 修改：在左侧推出空间，避免内容遮挡 */
-    padding-right: 15px; /* 修改：右侧也增加一点空间，让左右对称 */
-	border-radius: 12px; /* 新增：与 Research Highlights 卡片统一圆角 */
+    padding-left: 20px;
+    padding-right: 15px;
+    border-radius: 12px;
   }
-  
-  /* 新增：进一步压缩卡片内文字元素的间距 */
+    
   .publication-card .paper-box-text > * {
     margin-top: 8px;
     margin-bottom: 8px;
   }
 
-  /* 新增：缩小 Highlights 部分列表项的字体大小 */
   .publication-card .paper-box-text ul li {
     font-size: 0.9em;
   }
 
-  /* 新增：为所有 .paper-box 元素添加阴影，保持与 Research Highlights 一致 */
   .paper-box {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
 
+  /* ================================================= */
+  /* Subheading Styles (竖线风格) - 保持不变            */
+  /* ================================================= */
 
-  /* 新增：为 Publication 子标题设计的“胶囊”样式 */
   .publication-subheading {
-    display: inline-block; /* 让容器宽度自适应文字内容 */
-    background-color: #4A708B; /* 使用主标题的蓝色 */
-    color: white;
-    padding: 8px 20px;
-    border-radius: 999px; /* 创建完美的胶囊形状 */
-    font-size: 1.1em;
+    display: block; 
+    background-color: transparent; 
+    color: #333; 
+    padding: 0 0 0 15px; 
+    border-left: 5px solid #4A708B; 
+    border-radius: 0; 
+    font-size: 1.3em; 
     font-weight: bold;
     margin-top: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    box-shadow: none; 
   }
-  /* 第一个子标题的上边距可以小一些 */
+  
   .publication-subheading:first-of-type {
     margin-top: 30px;
   }
+
+  /* ================================================= */
+  /* Dynamic Icon Styles - 保持不变                    */
+  /* ================================================= */
+
+  .dynamic-icon {
+    color: #0056b3; 
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.1em; 
+    
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: transform;
+  }
+
+  /* 动画组 */
+  @keyframes breathe-smooth {
+    0%, 100% { transform: scale(1); filter: brightness(1); }
+    50% { transform: scale(1.08); filter: brightness(1.2); }
+  }
+
+  @keyframes swing-smooth {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(4deg); } 
+    75% { transform: rotate(-4deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  @keyframes float-smooth {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-4px); }
+  }
+
+  .anim-breathe { animation: breathe-smooth 3s infinite ease-in-out alternate; }
+  .anim-swing { animation: swing-smooth 3.5s infinite ease-in-out; }
+  .anim-float { animation: float-smooth 3s infinite ease-in-out alternate; }
 
 </style>
 
@@ -139,7 +364,7 @@ redirect_from:
 
 
 <span class='anchor' id='about-me'></span>
-# 🙋‍♂️ <font color="#0056b3">About Me</font>
+# <i class="fas fa-user-circle dynamic-icon anim-breathe"></i> <font color="#0056b3">About Me</font>
 
 <p style="text-align: center; font-size: 1.2em; font-weight: bold; color: #7A0019; margin-bottom: 25px;">
 A Problem-Solver Applying AI to Innovate in Complex Physical Systems.
@@ -154,7 +379,7 @@ If you are interested in any aspect of my work, I am always open to discussions 
 
 
 <span class='anchor' id='Research-Highlights'></span>
-# 🎯 <font color="#0056b3">Research Highlights</font>
+# <i class="fas fa-layer-group dynamic-icon anim-float"></i> <font color="#0056b3">Research Highlights</font>
 
 My research is organized into three core themes.
 
@@ -209,7 +434,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='News'></span>
-# 🔥 <font color="#0056b3">News</font>
+# <i class="fas fa-bullhorn dynamic-icon anim-swing"></i> <font color="#0056b3">News</font>
 
 <div style="font-size: 0.92em;" markdown="1">
 - ***2025.05*** &nbsp;🎉🎉 Humbled to be selected as one of 100 National Representatives for the National Scholarship, an honor featured in the **People's Daily**.
@@ -218,9 +443,9 @@ My research is organized into three core themes.
 </div>
 
 <span class='anchor' id='Publications'></span>
-# 📝 <font color="#0056b3">Publications</font>
+# <i class="fas fa-book-open dynamic-icon anim-breathe"></i> <font color="#0056b3">Publications</font>
 
-<h3 style="margin-top: 30px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Under Review</h3>
+<div class="publication-subheading">Under Review</div>
 
 <div class='paper-box publication-card'>
   <div class='paper-box-image'><div><div class="badge">Reliability Engineering & System Safety</div><img src='images/paper5.svg' alt="sym" width="100%"></div></div>
@@ -265,7 +490,7 @@ My research is organized into three core themes.
 </div>
 
 
-<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Published</h3>
+<div class="publication-subheading">Published</div>
 
 
 <div class='paper-box publication-card'>
@@ -340,7 +565,7 @@ My research is organized into three core themes.
 </div>
 
 
-<h3 style="margin-top: 40px; margin-bottom: 20px; padding-left: 15px; border-left: 5px solid #4A708B;">Other Co-authored Works</h3>
+<div class="publication-subheading">Other Co-authored Works</div>
 
 <div markdown="1" style="font-size: 0.95em; padding-left: 15px;">
 - <span style="background-color: #133599; color: white; padding: 1px 4px; font-size: 0.85em; line-height: 1;">Process Safety and Environmental Protection</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957582025001119">Deep learning based early warning methodology for gas kick of deepwater drilling using pilot-scale rig data</a>, Qishuai Yin, Qikang Zhu, <strong>Zehua Song</strong>, et al.
@@ -364,7 +589,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Honors-and-Awards'></span>
-# 🏆️ <font color="#0056b3">Honors and Awards</font>
+# <i class="fas fa-medal dynamic-icon anim-float"></i> <font color="#0056b3">Honors and Awards</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -423,7 +648,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Education'></span>
-# 📖 <font color="#0056b3">Education</font>
+# <i class="fas fa-graduation-cap dynamic-icon anim-breathe"></i> <font color="#0056b3">Education</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -455,7 +680,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Oral-Presentations'></span>
-# 💬 <font color="#0056b3">Oral Presentations</font>
+# <i class="fas fa-microphone-alt dynamic-icon anim-swing"></i> <font color="#0056b3">Oral Presentations</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -480,7 +705,7 @@ My research is organized into three core themes.
 
 
 <span class='anchor' id='Industry-Experience'></span>
-# 💻 <font color="#0056b3">Industry Experience</font>
+# <i class="fas fa-briefcase dynamic-icon anim-float"></i> <font color="#0056b3">Industry Experience</font>
 
 <div style="font-size: 0.99em;">
 <table style="width: 100%; border: none; border-collapse: collapse;">
@@ -515,6 +740,6 @@ My research is organized into three core themes.
 <span class='anchor' id='Visitor-Map'></span>
 <div id="clustrmaps-container" style="width: 250px; height: 250px; margin: 0 auto; display: none;">
 
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=2a65RVkDQtsNVgLvnJPUt-6ACnWUxt8CSOdNZ81OM1A"></script>
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=2a65RVkDQtsNVgLvnJPUt-6ACnWUxt8CSOdNZ81OM1A"></script>
 
 </div>
